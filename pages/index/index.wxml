@@ -1,0 +1,21 @@
+<!--index.wxml-->
+<view class='title'>你已经获胜了{{count}}次</view>
+<view class='top'>
+  <image src='/image/{{onePic}}'></image>
+
+  <text hidden="{{flag}}">{{tip}}</text>
+
+  <image src='/image/{{twoPic}}'></image>
+
+</view>
+
+<view class='bot'>
+  <view class='bot-tip'>少年，出拳吧！</view>
+  <view class='imgA' bindtap="stop">
+    <block wx:for="{{imgArr}}" wx:key="*this">
+      <image src="/image/{{item}}" data-index="{{item}}"></image>
+    </block>
+    
+  </view>
+  <button bindtap="clickFn" disabled='{{disabledTxt}}'>{{btnText}}</button>
+</view>

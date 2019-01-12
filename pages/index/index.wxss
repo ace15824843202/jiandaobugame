@@ -1,0 +1,49 @@
+/**index.wxss**/
+page{background:#fae738;}
+.title{
+  text-align: center;
+  line-height: 100rpx;
+  margin: 30rpx auto;
+}
+.top{
+  margin: 30rpx 60rpx;
+  display: flex;
+  justify-content: space-between;
+}
+image{
+ width:200rpx;
+ height:200rpx;
+
+}
+.top text{
+  line-height: 200rpx;
+  color: red;
+}
+.bot{
+  width: 90%;
+  height:600rpx;
+  margin: 20rpx auto;
+  background:#fff;
+}
+
+.bot-tip{
+  text-align: center;
+  line-height: 100rpx;
+}
+.imgA{
+  
+  width:90%;
+  display: flex;
+  margin: 20rpx auto;
+  justify-content:space-between;  
+}
+.imgA image{
+  border-radius: 50%;
+  width:180rpx;
+  height:180rpx;
+}
+.bot button{
+  width: 80%;
+  background: #fae738;
+  margin: 50rpx auto;
+}
